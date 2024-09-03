@@ -1,3 +1,4 @@
+"use client";
 import { Button, Card, CardFooter, Image } from "@nextui-org/react";
 import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";

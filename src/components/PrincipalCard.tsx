@@ -1,5 +1,5 @@
+"use client";
 import { Rectangulo } from "@/svg/Rectangulo";
-import { Button, Card, CardFooter, CardHeader, Image } from "@nextui-org/react";
 import { motion } from "framer-motion";
 import React from "react";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
