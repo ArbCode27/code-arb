@@ -9,7 +9,7 @@ export const Galery = () => {
       <h3 className="md:hidden text-center font-semibold text-xl uppercase mb-4">
         Proyectos
       </h3>
-      <div className="md:h-[600px] gap-2 grid grid-cols-12 md:grid-rows-2">
+      <div className="md:h-[600px] gap-6 md:gap-2 grid grid-cols-12 md:grid-rows-2">
         <a
           className="col-span-12 sm:col-span-4 h-[300px]"
           href="https://rick-and-morty-r3grgsm4g-abraham-rojas-projects.vercel.app/"
@@ -18,6 +18,8 @@ export const Galery = () => {
             <Image
               isZoomed
               removeWrapper
+              width={300}
+              height={300}
               alt="Card background"
               className="z-0 w-full h-full object-cover"
               src="/rickAndMorty.webp"
@@ -41,6 +43,8 @@ export const Galery = () => {
         >
           <Card className="w-full h-full">
             <Image
+              width={300}
+              height={300}
               isZoomed
               removeWrapper
               alt="Card background"
@@ -67,6 +71,8 @@ export const Galery = () => {
           <Card className="w-full h-full">
             <Image
               isZoomed
+              width={300}
+              height={300}
               removeWrapper
               alt="Card background"
               className="z-0 w-full h-full object-cover"
@@ -90,6 +96,8 @@ export const Galery = () => {
           <Card className="w-full h-full" isFooterBlurred>
             <Image
               isZoomed
+              width={300}
+              height={300}
               removeWrapper
               alt="Card example background"
               className="z-0 w-full h-full -translate-y-6 object-cover"
@@ -109,6 +117,8 @@ export const Galery = () => {
           <Card isFooterBlurred className="w-full h-full">
             <Image
               isZoomed
+              width={300}
+              height={300}
               removeWrapper
               alt="Relaxwebp app background"
               className="z-0 w-full h-full object-cover"
