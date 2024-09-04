@@ -11,6 +11,7 @@ export const Galery = () => {
       </h3>
       <div className="md:h-[600px] gap-6 md:gap-2 grid grid-cols-12 md:grid-rows-2">
         <a
+          target="_blank"
           className="col-span-12 sm:col-span-4 h-[300px]"
           href="https://rick-and-morty-r3grgsm4g-abraham-rojas-projects.vercel.app/"
         >
@@ -38,6 +39,7 @@ export const Galery = () => {
         </a>
 
         <a
+          target="_blank"
           className="col-span-12 sm:col-span-4 h-[300px]"
           href="https://nelmarglobals.com/"
         >
@@ -65,6 +67,7 @@ export const Galery = () => {
         </a>
 
         <a
+          target="_blank"
           className="hidden md:block col-span-12 sm:col-span-4 h-[300px]"
           href="https://www.jakera.com/"
         >
@@ -90,6 +93,7 @@ export const Galery = () => {
         </a>
 
         <a
+          target="_blank"
           className="hidden md:block w-full h-[300px] col-span-12 sm:col-span-5"
           href=""
         >
@@ -113,7 +117,11 @@ export const Galery = () => {
           </Card>
         </a>
 
-        <a className="w-full h-[300px] col-span-12 sm:col-span-7" href="">
+        <a
+          target="_blank"
+          className="w-full h-[300px] col-span-12 sm:col-span-7"
+          href="https://aqomi.com"
+        >
           <Card isFooterBlurred className="w-full h-full">
             <Image
               isZoomed
