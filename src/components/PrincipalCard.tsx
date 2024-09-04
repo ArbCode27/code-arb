@@ -7,7 +7,7 @@ import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 export const PrincipalCard = () => {
   return (
     <section className="h-[600px] mb-32">
-      <div className="container mx-auto flex flex-col lg:pl-20 justify-center gap-4 w-full h-full relative">
+      <div className="container mx-auto flex flex-col lg:pl-20 justify-center gap-4 h-full relative">
         <Rectangulo translateX={20} translateY={-66} />
         <motion.h2
           initial={{ translateY: 20, opacity: 0 }}

@@ -31,7 +31,7 @@ export default function RootLayout({
         <NextUIProvider>
           <div className="md:flex md:gap-6 md:p-4 md:max-h-[100vh]">
             <div className="hidden md:flex bg-black w-[60px] h-[70px] justify-center items-center fixed bottom-[8px] right-2 rounded-xl z-[10000]">
-              <Tooltip color="primary" content="Download CV">
+              <Tooltip color="primary" content="Descarga mi CV">
                 <a href="/resume.pdf" download>
                   <Button href="" isIconOnly className="bg-none">
                     <FaFileDownload size={32} />
@@ -92,6 +92,7 @@ export default function RootLayout({
               </div>
               <a className="md:hidden" href="/resume.pdf" download>
                 <FaFileDownload size={22} />
+                <p></p>
               </a>
             </nav>
             <div className="md:overflow-y-scroll  bg-[#171718] rounded-xl overflow-x-hidden">
