@@ -11,9 +11,9 @@ export const Clients = () => {
         Empresas con las que he trabajado
       </h4>
       <div className="flex gap-8 justify-center items-center">
-        <ClientCard image="/aqomiLogo.png" delay={0} />
-        <ClientCard image="/nelmarLogo.png" delay={0.2} />
-        <ClientCard image="/weeboLogo.png" delay={0.3} />
+        <ClientCard image="/aqomiLogo.webp" delay={0} />
+        <ClientCard image="/nelmarLogo.webp" delay={0.2} />
+        <ClientCard image="/weeboLogo.webp" delay={0.3} />
       </div>
     </section>
   );

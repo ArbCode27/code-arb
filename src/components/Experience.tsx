@@ -13,7 +13,7 @@ export const Experience = () => {
         initial={{ opacity: 0, translateY: 20 }}
         whileInView={{ opacity: 1, translateY: 0 }}
         transition={{ duration: 1 }}
-        viewport={{ once: true, amount: 0.4 }}
+        viewport={{ once: true, amount: 0.2 }}
         className="grid md:grid-cols-2 justify-self-center items-center"
       >
         <div className="flex flex-col md:items-start items-center justify-center gap-2 max-w-[400px] relative z-[1000]">
@@ -30,14 +30,14 @@ export const Experience = () => {
         </div>
         <figure className="w-[100%] flex justify-center mt-4 md:mt-0 mb-12 md:mb-0">
           <Image
-            src="https://nextui-docs-v2.vercel.app/images/album-cover.png"
+            src="https://nextui.org/images/card-example-3.jpeg"
             alt="NextUI Album Cover"
             className=" md:hidden w-full"
             width={300}
           />
           <Image
             isBlurred
-            src="https://nextui-docs-v2.vercel.app/images/album-cover.png"
+            src="https://nextui.org/images/card-example-3.jpeg"
             alt="NextUI Album Cover"
             className="hidden md:block m-5 w-full"
             width={300}
@@ -49,17 +49,17 @@ export const Experience = () => {
         whileInView={{ opacity: 1, translateY: 0 }}
         transition={{ duration: 1 }}
         viewport={{ once: true, amount: 0.4 }}
-        className="grid md:grid-cols-2"
+        className="grid md:grid-cols-2 md:gap-12"
       >
         <figure className="w-full flex justify-center">
           <Image
             isBlurred
-            src="https://nextui-docs-v2.vercel.app/images/album-cover.png"
+            src="https://nextui.org/images/card-example-2.jpeg"
             alt="NextUI Album Cover"
             className="hidden md:block m-5 w-full"
           />
         </figure>
-        <div className="w-full flex flex-col items-center md:items-start justify-end gap-2  max-w-[400px] relative z-[1000]">
+        <div className="w-full flex flex-col items-center md:items-start justify-center gap-2  max-w-[500px] relative z-[1000]">
           <h4 className="text-xl">Weebo</h4>
           <p className="text-center md:text-start">
             Crear una UI responsiva, intuitiva, accesible con buen SEO donde los
@@ -74,7 +74,7 @@ export const Experience = () => {
         </div>
         <figure className="w-full md:hidden flex justify-center mt-4 md:mt-0 mb-12 md:mb-0">
           <Image
-            src="https://nextui-docs-v2.vercel.app/images/album-cover.png"
+            src="https://nextui.org/images/card-example-2.jpeg"
             alt="NextUI Album Cover"
             className=" w-full"
           />
@@ -102,13 +102,13 @@ export const Experience = () => {
         </div>
         <figure className="w-full flex justify-center mt-4 md:mt-0 mb-12 md:mb-0">
           <Image
-            src="https://nextui-docs-v2.vercel.app/images/album-cover.png"
+            src="https://nextui.org/images/card-example-4.jpeg"
             alt="NextUI Album Cover"
             className="md:hidden w-full"
           />
           <Image
             isBlurred
-            src="https://nextui-docs-v2.vercel.app/images/album-cover.png"
+            src="https://nextui.org/images/card-example-4.jpeg"
             alt="NextUI Album Cover"
             className="hidden md:block m-5 w-full"
           />

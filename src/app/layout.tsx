@@ -94,10 +94,8 @@ export default function RootLayout({
                 <FaFileDownload size={22} />
               </a>
             </nav>
-            <div className="md:overflow-y-scroll  bg-[#171718] rounded-xl no-scroll-bar">
-              <div className="p-4 overflow-x-hidden no-scroll-bar">
-                {children}
-              </div>
+            <div className="md:overflow-y-scroll  bg-[#171718] rounded-xl">
+              <div className="p-4 overflow-x-hidden">{children}</div>
             </div>
           </div>
         </NextUIProvider>

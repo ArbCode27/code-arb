@@ -20,7 +20,7 @@ export const Galery = () => {
               removeWrapper
               alt="Card background"
               className="z-0 w-full h-full object-cover"
-              src="/rickAndMorty.png"
+              src="/rickAndMorty.webp"
             />
             <CardFooter className="absolute bg-black/70 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
               <div className="flex flex-grow gap-2 items-end justify-between">
@@ -45,7 +45,7 @@ export const Galery = () => {
               removeWrapper
               alt="Card background"
               className="z-0 w-full h-full object-cover"
-              src="/nelmar.png"
+              src="/nelmar.webp"
             />
             <CardFooter className="absolute bg-black/70 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
               <div className="flex flex-grow gap-2 items-end justify-between">
@@ -70,7 +70,7 @@ export const Galery = () => {
               removeWrapper
               alt="Card background"
               className="z-0 w-full h-full object-cover"
-              src="/jakera.png"
+              src="/jakera.webp"
             />
             <CardFooter className="absolute bg-black/70 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
               <div className="flex flex-grow gap-2 items-end justify-between">
@@ -93,7 +93,7 @@ export const Galery = () => {
               removeWrapper
               alt="Card example background"
               className="z-0 w-full h-full -translate-y-6 object-cover"
-              src="/weebo.png"
+              src="/weebo.webp"
             />
             <CardFooter className="absolute bg-black/70 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
               <div className="flex flex-grow gap-2 items-end justify-between">
@@ -110,9 +110,9 @@ export const Galery = () => {
             <Image
               isZoomed
               removeWrapper
-              alt="Relaxing app background"
+              alt="Relaxwebp app background"
               className="z-0 w-full h-full object-cover"
-              src="/aqomi.png"
+              src="/aqomi.webp"
             />
             <CardFooter className="absolute bg-black/70 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
               <div className="flex flex-grow gap-2 items-end justify-between">
