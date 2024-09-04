@@ -95,7 +95,9 @@ export default function RootLayout({
               </a>
             </nav>
             <div className="md:overflow-y-scroll  bg-[#171718] rounded-xl no-scroll-bar min-w-[80%]">
-              <div className="p-4 overflow-x-hidden">{children}</div>
+              <div className="p-4 overflow-x-hidden no-scroll-bar">
+                {children}
+              </div>
             </div>
           </div>
         </NextUIProvider>
