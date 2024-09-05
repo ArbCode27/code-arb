@@ -10,7 +10,7 @@ export const AboutMe = () => {
       whileInView={{ opacity: 1, translateY: 0 }}
       transition={{ duration: 1 }}
       viewport={{ once: true, amount: 0.4 }}
-      className="container flex flex-col items-center mx-auto mt-[200px] gap-6 pb-12 px-2"
+      className="container flex flex-col items-center mx-auto mt-[200px] gap-6 px-2"
     >
       <h3 className="text-xl font-semibold text-center uppercase mb-8">
         Acerca de mi
