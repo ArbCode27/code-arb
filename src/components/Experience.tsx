@@ -27,6 +27,11 @@ export const Experience = () => {
             equipos de diseño y backend, y asegurado que nuestras aplicaciones
             cumplan con los más altos estándares de calidad y rendimiento.
           </p>
+          <div className="flex gap-4 mt-4">
+            <Image src="/react.webp" width={60} alt="react" />
+            <Image src="/next.webp" width={90} alt="next" />
+            <Image src="/wp.webp" width={60} alt="wordpress" />
+          </div>
         </div>
         <figure className="w-[100%] flex justify-center mt-4 md:mt-0 mb-12 md:mb-0">
           <Image
@@ -71,6 +76,11 @@ export const Experience = () => {
             optimizar procesos de venta de clases y manejo de alumnos, ya que se
             automatiza toda la inscripción y la gestión del cliente.
           </p>
+          <div className="flex items-center gap-4 mt-4">
+            <Image src="/react.webp" width={60} alt="react" />
+            <Image src="/next.webp" width={90} alt="next" />
+            <Image src="/tailwind.webp" width={60} alt="wordpress" />
+          </div>
         </div>
         <figure className="w-full md:hidden flex justify-center mt-4 md:mt-0 mb-12 md:mb-0">
           <Image
@@ -99,6 +109,11 @@ export const Experience = () => {
             de navegación, experiencia de usuario, diseño de la página y buenas
             prácticas
           </p>
+          <div className="flex items-center gap-4 mt-4">
+            <Image src="/react.webp" width={60} alt="react" />
+            <Image src="/next.webp" width={90} alt="next" />
+            <Image src="/tailwind.webp" width={60} alt="wordpress" />
+          </div>
         </div>
         <figure className="w-full flex justify-center mt-4 md:mt-0 mb-12 md:mb-0">
           <Image

@@ -36,7 +36,7 @@ export const PrincipalCard = () => {
           initial={{ opacity: 0, translateY: -20 }}
           animate={{ opacity: 1, translateY: 0 }}
           transition={{ duration: 1.8, ease: "easeInOut", delay: 1.8 }}
-          className="md:hidden absolute bottom-0 flex w-full justify-center"
+          className="absolute left-0 bottom-12 md:bottom-0 flex w-full justify-center"
         >
           <MdOutlineKeyboardArrowDown size={40} />
         </motion.div>

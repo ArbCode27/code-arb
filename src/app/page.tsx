@@ -3,6 +3,7 @@ import { PrincipalCard } from "@/components/PrincipalCard";
 import { Clients } from "@/components/Clients";
 import { Experience } from "@/components/Experience";
 import { Arrow } from "@/svg/Arrow";
+import { AboutMe } from "@/components/AboutMe";
 
 export default function Home() {
   return (
@@ -11,8 +12,8 @@ export default function Home() {
         <PrincipalCard />
         <Galery />
       </section>
-      <Arrow />
       <Clients />
+      <AboutMe />
       <Experience />
     </main>
   );
